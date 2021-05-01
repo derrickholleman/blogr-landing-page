@@ -1,0 +1,275 @@
+/* HEADER STYLES */
+header {
+  background: url('../images/bg-pattern-intro.svg'), linear-gradient(to right,hsl(353, 82%, 63%), hsl(0, 42%, 46%));
+  background-position: center;
+  min-height: 32.25rem;
+  border-bottom-left-radius: 120px;
+  margin-bottom: 8rem;
+}
+
+.header-container {
+    width: 1080px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.header-top-row {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 1rem 0 1rem;
+  margin-bottom: 6rem;
+}
+
+.header-bottom-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: .95rem;
+  height: fit-content;
+}
+
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: .95rem;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-left: 4rem;
+}
+
+.logo {
+  z-index: 99;
+}
+
+.hamburger {
+  display: none;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
+
+ul > li {
+  margin-right: 2rem;
+}
+
+ul > li:hover span {
+  border-bottom: 3px solid white;
+  padding-bottom: .1rem;
+}
+
+.login {
+  color: white;
+  margin-right: 2rem;
+}
+
+.sign-up {
+  color: hsl(356, 100%, 66%);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: .95rem;
+  border: none;
+  outline: none;
+  padding: .8rem 2.2rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: white;
+}
+
+/* --------------------------------- */
+/* DROPDOWN HOVER MENU STYLING START */
+/* --------------------------------- */
+.dropdown-menu {
+  position: relative;
+}
+.dropdown-menu:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.dropdown-content a:hover {
+  font-weight: bold;
+}
+.dropdown-btn {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 1.2rem;
+}
+.dropdown-content {
+  position: absolute;
+  left: -30px;
+  display: none;
+  z-index: 2;
+  min-width: 145px;
+  min-height: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: white;
+  border-radius: 10px;
+}
+.dropdown-content a {
+  color: rgb(63, 59, 59);
+  font-weight: 400;
+  font-size: .91rem;
+  padding-left: 1rem;
+}
+.dropdown-arrow {
+  margin-left: .15rem;
+  transform: rotate(0deg);
+  transition: transform .2s ease-in-out;
+}
+.dropdown-menu:hover .dropdown-arrow {
+  transform: rotate(180deg);
+}
+/* ------------------------------- */
+/* DROPDOWN HOVER MENU STYLING END */
+/* ------------------------------- */
+
+.mobile-nav {
+  display: none;
+}
+
+.hero-text {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 3rem;
+  padding-bottom: .5rem;
+}
+
+.header-paragraph {
+  font-family: 'Overpass', sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+  width: 280px;
+}
+
+.start-for-free {
+  color: hsl(356, 100%, 66%);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: .95rem;
+  border: none;
+  outline: none;
+  padding: .8rem 1rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.start-for-free:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: white;
+}
+
+.learn-more {
+  color: white;
+  background-color: transparent;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: .95rem;
+  border: 2px solid white;
+  outline: none;
+  padding: .75rem 1.5rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  color: hsl(355, 100%, 74%);
+  background-color: white;
+}
+
+/* SECTION 1 STYLES */
+
+.section1-container {
+  width: 1080px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+.designed {
+  font-family: 'Overpass', sans-serif;
+  color: hsl(208, 52%, 19%);
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section1-content {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.section1-paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  padding-left: 3rem;
+}
+
+.description-title {
+  font-family: 'Overpass', sans-serif;
+  color: hsl(208, 52%, 19%);
+  margin-bottom: 1.5rem;
+}
+
+.description-paragraph {
+  font-family: 'Overpass', sans-serif;
+  color: hsl(206, 11%, 44%, .8);
+  font-size: .87rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+  line-height: 1.6rem;
+}
+
+.section1-image {
+  position: relative;
+  min-width: 700px;
+  right: -100px;
+}
+
+/* SECTION 2 STYLES */
+
+.section2-container {
+  width: 1080px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: fit-content;
+  margin-bottom: 2rem;
+}

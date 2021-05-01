@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- For external style sheets -->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+  <link rel="stylesheet" type="text/css" href="css/hamburger-animation.css">
+  <!--Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- For custom fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet"> 
+  <!-- Font awesome stuff -->
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/b96c1e7f03.js"></script>
+  <title></title>
+  <style>
+
+    *, *:before, *:after {
+    box-sizing: border-box;
+    }
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+  
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  header, article, main, section, footer {
+    height: fit-content;
+  }
+
+  body {
+  width: 1440px;
+  margin: 0 auto;
+  max-width: 100%;
+  min-height: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: 'Overpass', sans-serif; FOR PARAGRAPHS
+  font-family: 'Ubuntu', sans-serif; FOR HEADINGS */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-inline-start: 0%;
+  font-size: 16px;
+  line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  ul, li {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="header-top-row">
+        <div class="header-left">
+          <a href="#"><img src="images/logo.svg" class="logo"></a>
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-ul">
+            <li class="dropdown-menu">
+              <p class="dropdown-btn"><span>Product</span></p>
+              <img src="images/icon-arrow-light.svg" width="10" height="7" class="dropdown-arrow">
+              <div class="dropdown-content">
+                <a href="#">Contact</a>
+                <a href="#">Newsletter</a>
+                <a href="#">LinkedIn</a>
+              </div>
+            </li>
+
+            <li class="dropdown-menu">
+              <p class="dropdown-btn"><span>Company</span></p>
+              <img src="images/icon-arrow-light.svg" width="10" height="7" class="dropdown-arrow">
+              <div class="dropdown-content">
+                <a href="#">Contact</a>
+                <a href="#">Newsletter</a>
+                <a href="#">LinkedIn</a>
+              </div>
+            </li>
+
+            <li class="dropdown-menu">
+              <p class="dropdown-btn"><span>Connect</span></p>
+              <img src="images/icon-arrow-light.svg" width="10" height="7" class="dropdown-arrow">
+              <div class="dropdown-content">
+                <a href="#">Contact</a>
+                <a href="#">Newsletter</a>
+                <a href="#">LinkedIn</a>
+              </div>
+            </li>
+          </ul>
+          <!--MOBILE MENU START-->
+        <div class="mobile-nav mobile-nav.is-active">
+          <ul>
+            <li class="dropdown-menu">
+              <p class="dropdown-btn"><span>Product</span></p>
+              <img src="images/icon-arrow-dark.svg" width="10" height="7" class="dropdown-arrow">
+              <div class="dropdown-content">
+                <a href="#">Contact</a>
+                <a href="#">Newsletter</a>
+                <a href="#">LinkedIn</a>
+              </div>
+            </li>
+
+            <li class="dropdown-menu">
+              <p class="dropdown-btn"><span>Company</span></p>
+              <img src="images/icon-arrow-dark.svg" width="10" height="7" class="dropdown-arrow">
+              <div class="dropdown-content">
+                <a href="#">Contact</a>
+                <a href="#">Newsletter</a>
+                <a href="#">LinkedIn</a>
+              </div>
+            </li>
+
+            <li class="dropdown-menu">
+              <p class="dropdown-btn"><span>Connect</span></p>
+              <img src="images/icon-arrow-dark.svg" width="10" height="7" class="dropdown-arrow">
+              <div class="dropdown-content">
+                <a href="#">Contact</a>
+                <a href="#">Newsletter</a>
+                <a href="#">LinkedIn</a>
+              </div>
+            </li>
+          </ul>
+          <div class="header-right-mobile">
+            <p class="login"><a href="#">Login</a></p>
+            <button class="sign-up">Sign Up</button>
+          </div>
+        </div>
+          <!--MOBILE MENU END-->
+        </div>
+        <div class="header-right">
+          <p class="login"><a href="#">Login</a></p>
+          <button class="sign-up">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="header-bottom-row">
+        <div class="hero-text">
+          A modern publishing platform
+        </div>
+        <p class="header-paragraph">
+          Grow your audience and build your online brand
+        </p>
+        <div class="header-buttons">
+          <button class="start-for-free">
+            Start for Free
+          </button>
+          <button class="learn-more">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </header> 
+<!---------------------->
+<!--SECTION CONTAINERS-->
+<!---------------------->
+  <section class="section1-container">
+    <h1 class="designed">
+      Designed for the Future
+    </h1>
+    <div class="section1-content">
+
+      <picture class="section1-image">
+        <img src="images/illustration-editor-desktop.svg" width="925" height="882">
+      </picture>
+
+      <div class="section1-paragraphs">
+        <div class="description1">
+          <h2 class="description-title">
+            Introducing an extensible editor
+          </h2>
+          <p class="description-paragraph">
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and markdown.  Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.
+          </p>
+        </div>
+        <div class="description2">
+          <h2 class="description-title">
+            Robust content management
+          </h2>
+          <p class="description-paragraph">
+            Flexible content management enables users to easily move through posts.  Increase the usability of your blog by adding customized categories, sections, format, or flow.  With this functionality, you're in full control.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section2-container">
+    
+  </section>
+  
+ <!-- For JS Scripts -->
+ <script type="text/javascript" src="js/hamburger.js"></script>
+</body>
+</html>
