@@ -266,12 +266,10 @@ ul > li:hover span, ul > li:active span {
   right: -100px;
 }
 
-/* SECTION 2 STYLES */
-
 .section2 {
   width: 1440px;
   max-width: 100%;
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
   border-bottom-left-radius: 120px;
   border-top-right-radius: 120px;
   max-height: 25rem;
@@ -321,4 +319,49 @@ ul > li:hover span, ul > li:active span {
   font-weight: 600;
   line-height: 1.6rem;
   text-align: center;
+}
+
+.section3-container {
+  width: 1080px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+.section3-content {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.section3-paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  padding-right: 3rem;
+}
+
+.description-title {
+  font-family: 'Overpass', sans-serif;
+  color: hsl(208, 52%, 19%);
+  margin-bottom: 1.5rem;
+}
+
+.description-paragraph {
+  font-family: 'Overpass', sans-serif;
+  color: hsl(206, 11%, 44%, .8);
+  font-size: .87rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  line-height: 1.6rem;
+}
+
+.section3-image {
+  position: relative;
+  min-width: 700px;
+  left: -100px;
 }
