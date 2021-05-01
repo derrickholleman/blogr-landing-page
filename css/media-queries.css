@@ -102,7 +102,8 @@
     .dropdown-btn:hover, .dropdown-btn:active {
         color: gray;
     }
-    .dropdown-menu:hover .dropdown-content, .dropdown-menu:active .dropdown-content {
+    .dropdown-menu:hover .dropdown-content, 
+    .dropdown-menu:active .dropdown-content {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -112,7 +113,10 @@
         color: gray;
     }
     .dropdown-content {
-        margin-left: 5%;
+        margin-left: 15%;
+    }
+    .dropdown-content a {
+        padding-left: 0%;
     }
     .section1-content {
         display: flex;

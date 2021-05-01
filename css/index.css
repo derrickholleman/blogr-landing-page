@@ -134,7 +134,7 @@ ul > li:hover span, ul > li:active span {
   color: rgb(63, 59, 59);
   font-weight: 400;
   font-size: .91rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 .dropdown-arrow {
   margin-left: .15rem;
