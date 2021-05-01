@@ -25,18 +25,3 @@ jQuery('#hamburger').click(function(){
     }
 });
 
-jQuery('.dropdown-menu dropdown-btn').hover(
-    function() {
-      jQuery('ul', this).stop().slideDown(100);
-    },
-    function() {
-      jQuery('ul', this).stop().slideUp(100);
-    }
-  );
-  
-  jQuery('.dropdown-menu dropdown-btn').on('click',
-    function() {
-      jQuery('ul', this).stop().slideToggle(50);
-    }
-  );
-  
