@@ -255,7 +255,7 @@ ul > li:hover span, ul > li:active span {
   font-family: 'Overpass', sans-serif;
   color: hsl(206, 11%, 44%, .8);
   font-size: .87rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 4rem;
   line-height: 1.6rem;
 }
@@ -268,9 +268,57 @@ ul > li:hover span, ul > li:active span {
 
 /* SECTION 2 STYLES */
 
+.section2 {
+  width: 1440px;
+  max-width: 100%;
+  margin-bottom: 6rem;
+  border-bottom-left-radius: 120px;
+  border-top-right-radius: 120px;
+  max-height: 25rem;
+  background: url('../images/bg-pattern-circles.svg'), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-repeat: no-repeat;
+  background-position: -200px, -0px;
+}
+
 .section2-container {
   width: 1080px;
   max-width: 100%;
   margin: 0 auto;
-  margin-bottom: 4rem;
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+
+.section2-image {
+  position: relative;
+  min-width: 60%;
+  top: -60px;
+  max-width: none;
+  left: -50px;
+}
+
+.section2-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 400px;
+}
+
+.section2-header {
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.section2-paragraph {
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-size: .87rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  text-align: center;
 }

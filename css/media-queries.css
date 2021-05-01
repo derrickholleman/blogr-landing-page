@@ -1,13 +1,29 @@
-@media screen and (max-width: 320px) {
-    
+@media screen and (max-width: 422px) {
+    .section2-right {
+        position: absolute;
+        top: 230px;
+    }
 }
 
-@media screen and (min-width: 321px) and (max-width: 576px) {
+@media screen and (min-width: 423px) and (max-width: 518px) {
+    .section2-right {
+        position: absolute;
+        top: 280px;
+    }
+} 
 
+@media screen and (min-width: 419px) and (max-width: 583px) {
+    .section2-right {
+        position: absolute;
+        top: 340px;
+    }
 }
 
-@media screen and (min-width: 577px) and (max-width: 752px) {
-
+@media screen and (min-width: 584px) and (max-width: 752px) {
+    .section2-right {
+        position: absolute;
+        top: 460px;
+    }
 }
 
 @media screen and (max-width: 753px) {
@@ -115,6 +131,9 @@
     .dropdown-content a {
         padding-left: 0%;
     }
+    .section1-container {
+        margin-bottom: 6rem;
+    }
     .section1-content {
         display: flex;
         flex-direction: column;
@@ -125,7 +144,6 @@
     .section1-paragraphs {
         max-width: 75%;
         padding-left: 0%;
-        margin-top: -4rem;
     }
     .section1-image {
         min-width: 500px;
@@ -135,10 +153,27 @@
     .designed {
         margin-bottom: 0%;
     }
+    .section2 {
+        min-height: 40rem;
+        position: relative;
+    }
+    .section2-container {
+        flex-direction: column;
+    }
+    .section2-paragraph {
+        max-width: 75%;
+    }
+    .section2-image {
+        top: -100px;
+        width: 80vw;
+        left: 0px;
+    }
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
-
+@media screen and (min-width: 753px) and (max-width: 854px) {
+    .section2 {
+        max-height: 20rem;
+    }
 }
 
 /* mobile/tablet/laptop cutoff */ 
