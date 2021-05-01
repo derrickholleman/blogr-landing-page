@@ -105,7 +105,6 @@ ul > li:hover span, ul > li:active span {
 /* --------------------------------- */
 .dropdown-menu {
   position: relative;
-  position: static;
 }
 .dropdown-menu:hover .dropdown-content, .dropdown-menu:active .dropdown-content {
   display: flex;
