@@ -73,7 +73,7 @@ ul > li {
   margin-right: 2rem;
 }
 
-ul > li:hover span {
+ul > li:hover span, ul > li:active span {
   border-bottom: 3px solid white;
   padding-bottom: .1rem;
 }
@@ -95,7 +95,7 @@ ul > li:hover span {
   cursor: pointer;
 }
 
-.sign-up:hover {
+.sign-up:hover, .sign-up:active {
   background-color: hsl(355, 100%, 74%);
   color: white;
 }
@@ -106,12 +106,12 @@ ul > li:hover span {
 .dropdown-menu {
   position: relative;
 }
-.dropdown-menu:hover .dropdown-content {
+.dropdown-menu:hover .dropdown-content, .dropdown-menu:active .dropdown-content {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.dropdown-content a:hover {
+.dropdown-content a:hover, .dropdown-content a:active {
   font-weight: bold;
 }
 .dropdown-btn {
@@ -141,7 +141,7 @@ ul > li:hover span {
   transform: rotate(0deg);
   transition: transform .2s ease-in-out;
 }
-.dropdown-menu:hover .dropdown-arrow {
+.dropdown-menu:hover .dropdown-arrow, .dropdown-menu:active .dropdown-arrow {
   transform: rotate(180deg);
 }
 /* ------------------------------- */
@@ -185,7 +185,7 @@ ul > li:hover span {
   cursor: pointer;
 }
 
-.start-for-free:hover {
+.start-for-free:hover, .start-for-free:active {
   background-color: hsl(355, 100%, 74%);
   color: white;
 }
@@ -203,7 +203,7 @@ ul > li:hover span {
   cursor: pointer;
 }
 
-.learn-more:hover {
+.learn-more:hover, .learn-more:active {
   color: hsl(355, 100%, 74%);
   background-color: white;
 }

@@ -76,7 +76,7 @@
         color: hsl(207, 13%, 34%);
 
     }
-    .login a:hover {
+    .login a:hover, .login a:active {
         color: rgba(63, 59, 59, .7)
     }
     .sign-up {
@@ -84,7 +84,7 @@
         color: white;
         margin-bottom: 1rem;
     }
-    .sign-up:hover {
+    .sign-up:hover, .sign-up:active {
         background: hsl(355, 100%, 74%);
     }
     ul > li {
@@ -99,16 +99,16 @@
     .dropdown-btn {
         padding-left: .8rem;
     }
-    .dropdown-btn:hover {
+    .dropdown-btn:hover, .dropdown-btn:active {
         color: gray;
     }
-    .dropdown-menu:hover .dropdown-content {
+    .dropdown-menu:hover .dropdown-content, .dropdown-menu:active .dropdown-content {
         display: flex;
         justify-content: space-around;
         align-items: center;
         padding: 0;
     }
-    .dropdown-content a:hover {
+    .dropdown-content a:hover, .dropdown-content a:active {
         color: gray;
     }
     .dropdown-content {
