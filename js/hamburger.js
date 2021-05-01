@@ -24,3 +24,12 @@ jQuery('#hamburger').click(function(){
        jQuery('body').css('position','static');
     }
 });
+
+$('.dropdown-toggle').click(function(e) {
+    e.preventDefault();
+    setTimeout($.proxy(function() {
+      if ('ontouchstart' in document.documentElement) {
+        $(this).siblings('.dropdown-backdrop').off().remove();
+      }
+    }, this), 0);
+  });
