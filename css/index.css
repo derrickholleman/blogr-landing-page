@@ -371,6 +371,7 @@ ul > li:hover span, ul > li:active span {
 footer {
   background-color: hsl(240, 10%, 16%);
   border-top-right-radius: 120px;
+  height: min-content;
 }
 
 footer .logo {

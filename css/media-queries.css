@@ -171,7 +171,7 @@
         left: 0px;
     }
     .section3-container {
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
     }
     .section3-content {
         display: flex;
@@ -205,8 +205,8 @@
         padding: 0;
     }
     .footer-column-product {
-        max-height: 200px;
-        margin-bottom: 2rem;       
+        max-height: 200px; 
+        margin-bottom: 2rem;     
     }
     .footer-column-company {
         max-height: 150px;
@@ -214,6 +214,9 @@
     }
     .footer-column-connect {
         max-height: 100px;
+    }
+    footer ul {
+        margin-bottom: 0;
     }
 }
 
