@@ -25,3 +25,14 @@ jQuery('#hamburger').click(function(){
     }
 });
 
+/* hides text under hamburger menu for cleaner look */
+jQuery('#hamburger').click(function(){
+    var menu_active = jQuery(this).hasClass('is-active');
+    if(menu_active){
+        jQuery('.header-bottom-row').css('display', 'none');
+    } 
+    else {
+       jQuery('.header-bottom-row').css('display','flex');
+    }
+});
+

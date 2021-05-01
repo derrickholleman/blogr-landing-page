@@ -54,9 +54,6 @@
         opacity: 1;
         transform: rotate(0) translate(0px) scale(1);
     }
-    .header-bottom-row {
-        display: none;
-    }
     .header-right-mobile {
         display: flex;
         flex-direction: column;
