@@ -271,6 +271,5 @@ ul > li:hover span, ul > li:active span {
   width: 1080px;
   max-width: 100%;
   margin: 0 auto;
-  height: fit-content;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
