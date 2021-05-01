@@ -25,11 +25,18 @@ jQuery('#hamburger').click(function(){
     }
 });
 
-$('.dropdown-toggle').click(function(e) {
-    e.preventDefault();
-    setTimeout($.proxy(function() {
-      if ('ontouchstart' in document.documentElement) {
-        $(this).siblings('.dropdown-backdrop').off().remove();
-      }
-    }, this), 0);
-  });
+jQuery('.dropdown-menu dropdown-btn').hover(
+    function() {
+      jQuery('ul', this).stop().slideDown(100);
+    },
+    function() {
+      jQuery('ul', this).stop().slideUp(100);
+    }
+  );
+  
+  jQuery('.dropdown-menu dropdown-btn').on('click',
+    function() {
+      jQuery('ul', this).stop().slideToggle(50);
+    }
+  );
+  
