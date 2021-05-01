@@ -24,21 +24,3 @@ jQuery('#hamburger').click(function(){
        jQuery('body').css('position','static');
     }
 });
-
-function setScrollLeft(x)
-{
-  if ( element.scrollLeft != x )
-  {
-    ignoreScrollEvents = true;
-    element.scrollLeft = x;
-  }
-} 
-
-function onScroll() 
-{
-  var ignore = ignoreScrollEvents;
-  ignoreScrollEvents = false;
-
-  if (ignore) return false;
-
-}
