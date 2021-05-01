@@ -189,6 +189,31 @@
         min-width: auto;
         left: 10px;
         margin-top: -2rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer .logo {
+        align-self: initial;
+        margin-bottom: 3rem;
+    }
+    .footer-title {
+        padding: 0;
+    }
+    .footer-column-product {
+        max-height: 200px;
+        margin-bottom: 2rem;       
+    }
+    .footer-column-company {
+        max-height: 150px;
+        margin-bottom: 2rem;
+    }
+    .footer-column-connect {
+        max-height: 100px;
     }
 }
 
@@ -204,8 +229,4 @@
     .section1-image, .section3-image {
         min-width: auto;
     }
-}
-
-@media screen and (max-width: 1536px) {
-    
 }

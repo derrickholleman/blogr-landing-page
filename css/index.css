@@ -70,7 +70,7 @@ header {
   background-color: transparent;
 }
 
-ul > li {
+.nav-ul li {
   margin-right: 2rem;
 }
 
@@ -361,9 +361,9 @@ ul > li:hover span, ul > li:active span {
 }
 
 .section3-image {
-  position: relative;
   min-width: 700px;
-  left: -100px;
+  margin-left: -15rem;
+  margin-right: 10rem;
 }
 
 /* FOOTER STYLES */
@@ -373,12 +373,63 @@ footer {
   border-top-right-radius: 120px;
 }
 
+footer .logo {
+  align-self: flex-start;
+}
+
 .footer-container {
-  padding-top: 4rem;
-  width: 1080px;
+  padding: 4rem 0;
+  width: 1200px;
   margin: 0 auto;
   max-width: 100%;
   display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  color: white;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links-product {
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: .9rem;
+  min-height: 150px;
+}
+
+.footer-links-company {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: .9rem;
+  min-height: 120px;
+}
+
+.footer-links-connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: .9rem;
+  min-height: 100px;
+}
+
+.footer-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-links-product a:hover, .footer-links-company a:hover, .footer-links-connect a:hover {
+  color: rgb(165, 161, 161);
 }
