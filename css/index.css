@@ -365,3 +365,20 @@ ul > li:hover span, ul > li:active span {
   min-width: 700px;
   left: -100px;
 }
+
+/* FOOTER STYLES */
+
+footer {
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 120px;
+}
+
+.footer-container {
+  padding-top: 4rem;
+  width: 1080px;
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
