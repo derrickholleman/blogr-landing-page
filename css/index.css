@@ -343,6 +343,7 @@ ul > li:hover span, ul > li:active span {
   justify-content: center;
   max-width: 50%;
   padding-right: 3rem;
+  padding-left: 4rem;
 }
 
 .description-title {
@@ -363,7 +364,6 @@ ul > li:hover span, ul > li:active span {
 .section3-image {
   min-width: 700px;
   margin-left: -15rem;
-  margin-right: 10rem;
 }
 
 /* FOOTER STYLES */

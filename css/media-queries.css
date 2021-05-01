@@ -183,6 +183,7 @@
     .section3-paragraphs {
         max-width: 75%;
         padding-right: 0%;
+        padding-left: 0%;
     }
     .section3-image {
         max-width: 600px;
