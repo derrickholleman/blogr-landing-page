@@ -1,31 +1,3 @@
-@media screen and (max-width: 422px) {
-    .section2-right {
-        position: absolute;
-        top: 230px;
-    }
-}
-
-@media screen and (min-width: 423px) and (max-width: 518px) {
-    .section2-right {
-        position: absolute;
-        top: 280px;
-    }
-} 
-
-@media screen and (min-width: 419px) and (max-width: 583px) {
-    .section2-right {
-        position: absolute;
-        top: 340px;
-    }
-}
-
-@media screen and (min-width: 584px) and (max-width: 752px) {
-    .section2-right {
-        position: absolute;
-        top: 460px;
-    }
-}
-
 @media screen and (max-width: 753px) {
     .nav-ul, .header-right {
         display: none;
@@ -132,7 +104,7 @@
         padding-left: 0%;
     }
     .section1-container {
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
     }
     .section1-content {
         display: flex;
@@ -154,22 +126,26 @@
     .designed {
         margin-bottom: 0%;
     }
-    .section2 {
-        min-height: 40rem;
-        position: relative;
-        margin-bottom: 2rem;
-    }
+    /* SECTION 2 STYLES START */
     .section2-container {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
     }
-    .section2-paragraph {
+    .section2-text {
+        padding-bottom: 4rem;
+        margin-top: -8rem;
         max-width: 75%;
+        text-align: center;
     }
     .section2-image {
+        min-width: auto;
+        position: relative;
         top: -100px;
-        width: 80vw;
-        left: 0px;
     }
+    /* SECTION 2 STYLES END */
     .section3-container {
         margin-bottom: 4rem;
     }
@@ -220,13 +196,6 @@
         margin-bottom: 0;
     }
 }
-
-@media screen and (min-width: 753px) and (max-width: 854px) {
-    .section2 {
-        max-height: 20rem;
-    }
-}
-
 /* mobile/tablet/laptop cutoff */ 
 
 @media screen and (min-width: 754px) and (max-width: 1073px) {

@@ -217,7 +217,7 @@ ul > li:hover span, ul > li:active span {
   max-width: 100%;
   margin: 0 auto;
   height: fit-content;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 .designed {
@@ -265,62 +265,49 @@ ul > li:hover span, ul > li:active span {
   min-width: 700px;
   right: -100px;
 }
-
+/* SECTION 2 STYLES START */
 .section2 {
   width: 1440px;
   max-width: 100%;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
   border-bottom-left-radius: 120px;
   border-top-right-radius: 120px;
-  max-height: 25rem;
+  height: fit-content;
   background: url('../images/bg-pattern-circles.svg'), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   background-repeat: no-repeat;
   background-position: -200px, -0px;
 }
 
 .section2-container {
+  margin: 0 auto;
+  display: flex;
   width: 1080px;
   max-width: 100%;
-  margin: 0 auto;
-  padding: 0 3rem;
-  display: flex;
   align-items: center;
-  height: fit-content;
+  height: 400px;
 }
 
-.section2-image {
-  position: relative;
-  min-width: 60%;
-  top: -60px;
-  max-width: none;
-  left: -50px;
-}
-
-.section2-right {
+.section2-text {
+  max-width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  min-height: 400px;
 }
-
-.section2-header {
+.section2-title {
   color: white;
   font-family: 'Overpass', sans-serif;
-  margin-bottom: 1.5rem;
-  font-size: 1.75rem;
-  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
 }
 
 .section2-paragraph {
   color: white;
   font-family: 'Overpass', sans-serif;
-  font-size: .87rem;
-  font-weight: 600;
-  line-height: 1.6rem;
-  text-align: center;
+  font-size: .9rem;
+  font-weight: 300;
 }
 
+/* SECTION 2 STYLES END */ 
 .section3-container {
   width: 1080px;
   max-width: 100%;
