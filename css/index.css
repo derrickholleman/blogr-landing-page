@@ -286,11 +286,16 @@ ul > li:hover span, ul > li:active span {
   height: 400px;
 }
 
+.section2-image {
+  max-width: 65%;
+}
+
 .section2-text {
   max-width: 50%;
   display: flex;
   flex-direction: column;
 }
+
 .section2-title {
   color: white;
   font-family: 'Overpass', sans-serif;
