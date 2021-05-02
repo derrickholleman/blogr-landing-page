@@ -199,7 +199,7 @@
 /* mobile/tablet/laptop cutoff */ 
 
 @media screen and (min-width: 754px) and (max-width: 1073px) {
-    .section1-image, .section3-image {
+    .section1-image {
         min-width: auto;
     }
 }
