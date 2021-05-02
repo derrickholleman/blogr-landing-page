@@ -272,7 +272,6 @@ ul > li:hover span, ul > li:active span {
   margin-bottom: 2rem;
   border-bottom-left-radius: 120px;
   border-top-right-radius: 120px;
-  height: fit-content;
   background: url('../images/bg-pattern-circles.svg'), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   background-repeat: no-repeat;
   background-position: -200px, -0px;
