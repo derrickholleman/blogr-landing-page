@@ -118,6 +118,7 @@
         padding-left: 0%;
     }
     .section1-image {
+        /* can only go up to 500px, auto resize anything lower */
         max-width: 500px;
         min-width: auto;
         right: -40px;
@@ -161,11 +162,11 @@
         padding-left: 0%;
     }
     .section3-image {
+        position: relative;
         max-width: 600px;
         min-width: auto;
-        left: 10px;
         margin-top: -2rem;
-        margin-left: 0;
+        margin-left: -4rem;
         margin-right: 0;
     }
     .footer-container {
