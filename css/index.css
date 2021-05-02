@@ -74,7 +74,8 @@ header {
   margin-right: 2rem;
 }
 
-ul > li:hover span, ul > li:active span {
+ul > li:hover span, ul > li:active span, 
+ul > li:focus span {
   border-bottom: 3px solid white;
   padding-bottom: .1rem;
 }
@@ -96,7 +97,7 @@ ul > li:hover span, ul > li:active span {
   cursor: pointer;
 }
 
-.sign-up:hover, .sign-up:active {
+.sign-up:hover, .sign-up:active, .sign-up:focus {
   background-color: hsl(355, 100%, 74%);
   color: white;
 }
@@ -112,7 +113,9 @@ ul > li:hover span, ul > li:active span {
   flex-direction: column;
   justify-content: space-around;
 }
-.dropdown-content a:hover, .dropdown-content a:active {
+.dropdown-content a:hover, 
+.dropdown-content a:active,
+.dropdown-content a:focus {
   font-weight: bold;
 }
 .dropdown-btn {
@@ -142,7 +145,9 @@ ul > li:hover span, ul > li:active span {
   transform: rotate(0deg);
   transition: transform .2s ease-in-out;
 }
-.dropdown-menu:hover .dropdown-arrow, .dropdown-menu:active .dropdown-arrow {
+.dropdown-menu:hover .dropdown-arrow, 
+.dropdown-menu:active .dropdown-arrow, 
+.dropdown-menu:focus .dropdown-arrow {
   transform: rotate(180deg);
 }
 /* ------------------------------- */
@@ -187,7 +192,9 @@ ul > li:hover span, ul > li:active span {
   cursor: pointer;
 }
 
-.start-for-free:hover, .start-for-free:active {
+.start-for-free:hover, 
+.start-for-free:active, 
+.start-for-free:focus {
   background-color: hsl(355, 100%, 74%);
   color: white;
 }
@@ -205,7 +212,9 @@ ul > li:hover span, ul > li:active span {
   cursor: pointer;
 }
 
-.learn-more:hover, .learn-more:active {
+.learn-more:hover, 
+.learn-more:active, 
+.learn-more:focus {
   color: hsl(355, 100%, 74%);
   background-color: white;
 }
@@ -422,6 +431,14 @@ footer .logo {
   padding-bottom: 1.5rem;
 }
 
-.footer-links-product a:hover, .footer-links-company a:hover, .footer-links-connect a:hover {
+.footer-links-product a:hover, 
+.footer-links-company a:hover, 
+.footer-links-connect a:hover, 
+.footer-links-product a:active, 
+.footer-links-company a:active, 
+.footer-links-connect a:active,
+.footer-links-product a:focus, 
+.footer-links-company a:focus, 
+.footer-links-connect a:focus {
   color: rgb(165, 161, 161);
 }
