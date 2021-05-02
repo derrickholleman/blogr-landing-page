@@ -200,7 +200,7 @@
 
 @media screen and (min-width: 754px) and (max-width: 1073px) {
     .section1-image {
-        min-width: auto;
+        min-width: auto; /* keeps width under control as page gets small */
         margin-left: -5rem;
     }
 }
