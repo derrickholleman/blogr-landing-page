@@ -6,6 +6,8 @@ $(document).ready(function(){
 });
 
 /* hamburger menu open */
+/* const menu_btn toggles on whichever classes have the .is-active class */
+/* const mobile_menu toggles on .is-active onto .mobile-nav */
 const menu_btn = document.querySelector('#hamburger');
 const mobile_menu = document.querySelector('.mobile-nav');
 
