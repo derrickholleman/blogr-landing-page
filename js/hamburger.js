@@ -11,9 +11,9 @@ const mobile_menu_display = document.querySelector('.mobile-nav');
 const hide_header = document.querySelector('.header-bottom-row')
 
 menu_toggle.addEventListener('click', function () { /* if #hamburger is clicked */
-	menu_toggle.classList.toggle('is-active'); /* init .is-active on menu open */
 	mobile_menu_display.classList.toggle('is-active'); /* init .mobile-nav.is-active */
     hide_header.classList.toggle('is-active'); /* init .header-bottom-row.is-active */
+    menu_toggle.classList.toggle('is-active'); /* only need this for the jQuery code that tells the body not to scroll while menu is open */
 })
 /*----------------------*/
 

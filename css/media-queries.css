@@ -34,16 +34,16 @@
         height: 470px;
         box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
         padding: 0rem 2rem;
-        /* transitions */
         opacity: 0;
         transform: rotate(180deg) translate(-200px, -100px) scale(.5);
         transition: .3s ease-in-out;
     }
+    /* triggered by js */
     .mobile-nav.is-active {
         opacity: 1;
         transform: rotate(0) translate(0px) scale(1);
     }
-    /* transitions end */
+    /* -------------- */
     .header-right-mobile {
         display: flex;
         flex-direction: column;
