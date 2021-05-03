@@ -11,7 +11,7 @@ const mobile_menu = document.querySelector('.mobile-nav');
 
 menu_toggle.addEventListener('click', function () { /* if #hamburger is clicked */
 	menu_toggle.classList.toggle('is-active'); /* init .is-active */
-	mobile_menu.classList.toggle('is-active'); /* put .is-active on .mobile-nav */
+	mobile_menu.classList.toggle('is-active'); /* put .is-active on .mobile-nav so that it's controlled by the hamburger menu toggling */
 })
 /*----------------------*/
 
