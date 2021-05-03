@@ -8,10 +8,12 @@ $(document).ready(function(){
 /* hamburger menu open */
 const menu_toggle = document.querySelector('#hamburger');
 const mobile_menu = document.querySelector('.mobile-nav');
+const hide_header = document.querySelector('.header-bottom-row')
 
 menu_toggle.addEventListener('click', function () { /* if #hamburger is clicked */
-	menu_toggle.classList.toggle('is-active'); /* init .is-active */
-	mobile_menu.classList.toggle('is-active'); /* put .is-active on .mobile-nav so that it's controlled by the hamburger menu toggling */
+	menu_toggle.classList.toggle('is-active'); /* init .is-active on menu open */
+	mobile_menu.classList.toggle('is-active'); /* init .mobile-nav.is-active */
+    hide_header.classList.toggle('is-active'); /* init .header-bottom-row.is-active */
 })
 /*----------------------*/
 
@@ -26,14 +28,14 @@ jQuery('#hamburger').click(function(){
     }
 });
 
-/* hides text under hamburger menu for cleaner look */
-jQuery('#hamburger').click(function(){
-    var menu_active = jQuery(this).hasClass('is-active');
-    if(menu_active){
-        jQuery('.header-bottom-row').css('display', 'none');
-    } 
-    else {
-       jQuery('.header-bottom-row').css('display','flex');
-    }
-});
+/* ALTERNATIVE WAY TO HIDE TEXT BASED ON A CONDITION */
+// jQuery('#hamburger').click(function(){
+//     var menu_active = jQuery(this).hasClass('is-active');
+//     if(menu_active){
+//         jQuery('.header-bottom-row').css('display', 'none');
+//     } 
+//     else {
+//        jQuery('.header-bottom-row').css('display','flex');
+//     }
+// });
 
