@@ -7,12 +7,12 @@ $(document).ready(function(){
 
 /* hamburger menu open */
 const menu_toggle = document.querySelector('#hamburger');
-const mobile_menu = document.querySelector('.mobile-nav');
+const mobile_menu_display = document.querySelector('.mobile-nav');
 const hide_header = document.querySelector('.header-bottom-row')
 
 menu_toggle.addEventListener('click', function () { /* if #hamburger is clicked */
 	menu_toggle.classList.toggle('is-active'); /* init .is-active on menu open */
-	mobile_menu.classList.toggle('is-active'); /* init .mobile-nav.is-active */
+	mobile_menu_display.classList.toggle('is-active'); /* init .mobile-nav.is-active */
     hide_header.classList.toggle('is-active'); /* init .header-bottom-row.is-active */
 })
 /*----------------------*/
