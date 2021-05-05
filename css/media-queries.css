@@ -16,7 +16,7 @@
         flex-direction: column;
         justify-content: space-between;
         height: 270px;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .mobile-nav {
         z-index: 999;
