@@ -112,7 +112,8 @@ ul > li:focus span {
 .dropdown-menu {
   position: relative;
 }
-.dropdown-menu:hover .dropdown-content, .dropdown-menu:active .dropdown-content {
+.dropdown-menu:hover .dropdown-content, 
+.dropdown-menu:active .dropdown-content {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
