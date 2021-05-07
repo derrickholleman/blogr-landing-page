@@ -139,7 +139,6 @@ ul > li:focus span {
 .dropdown-menu:hover a, 
 .dropdown-menu:active a {
   animation: fade-in .3s ease-in-out;
-  display: block;
 }
 /* dropdown slide in/fade in animation END */
 .dropdown-btn {
@@ -163,7 +162,6 @@ ul > li:focus span {
   font-weight: 400;
   font-size: .91rem;
   padding-left: 2rem;
-  display: none;
 }
 .dropdown-menu a:hover, 
 .dropdown-menu a:active,
