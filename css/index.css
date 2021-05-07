@@ -118,7 +118,7 @@ ul > li:focus span {
     min-height: 0;
   }
   to {
-    min-height: 145px;
+    min-height: 140px;
   }
 }
 @keyframes fade-in {
