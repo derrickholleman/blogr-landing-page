@@ -112,17 +112,37 @@ ul > li:focus span {
 .dropdown-menu {
   position: relative;
 }
+
+@keyframes slide-down {
+  from {
+    min-height: 0;
+  }
+  to {
+    min-height: 145px;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* dropdown slide in/fade in animation START */
 .dropdown-menu:hover .dropdown-content, 
 .dropdown-menu:active .dropdown-content {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  animation: slide-down .3s ease-in-out;
 }
-.dropdown-content a:hover, 
-.dropdown-content a:active,
-.dropdown-content a:focus {
-  font-weight: bold;
+.dropdown-menu:hover a, 
+.dropdown-menu:active a {
+  animation: fade-in .3s ease-in-out;
+  display: block;
 }
+/* dropdown slide in/fade in animation END */
 .dropdown-btn {
   cursor: pointer;
   display: inline-block;
@@ -144,6 +164,12 @@ ul > li:focus span {
   font-weight: 400;
   font-size: .91rem;
   padding-left: 2rem;
+  display: none;
+}
+.dropdown-menu a:hover, 
+.dropdown-menu a:active,
+.dropdown-menu a:focus {
+  font-weight: bold;
 }
 .dropdown-arrow {
   margin-left: .15rem;
