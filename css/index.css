@@ -346,6 +346,7 @@ ul > li:focus span {
   font-family: 'Overpass', sans-serif;
   font-size: .9rem;
   font-weight: 300;
+  padding-right: 1rem;
 }
 
 /* SECTION 2 STYLES END */ 
