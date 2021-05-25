@@ -7,6 +7,8 @@
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/media-queries.css">
   <link rel="stylesheet" type="text/css" href="css/hamburger-animation.css">
+  <!-- fade in style sheet -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!--Jquery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <!--Makes menus on mobile devices responsive to touch-->
@@ -183,7 +185,7 @@
 <!--SECTION CONTAINERS-->
 <!---------------------->
   <section class="section1-container">
-    <h1 class="designed">
+    <h1 class="designed" data-aos="test-animation">
       Designed for the Future
     </h1>
     <div class="section1-content">
@@ -301,5 +303,21 @@
  <!-- For JS Scripts -->
  <script type="text/javascript" src="js/hamburger.js"></script>
  <script type="text/javascript" src="js/smooth-scroll.js"></script>
+ <!-- fade in script -->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    AOS.init({
+    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 550, // values from 0 to 3000, with step 50ms
+  easing: 'ease-in-out-sine', // default easing for AOS animations
+  once: true, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+  });
+  </script>
 </body>
 </html>

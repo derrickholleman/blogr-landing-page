@@ -52,6 +52,7 @@ header {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
   font-size: .95rem;
+  margin: 0 1rem 0 0;
 }
 
 .nav-ul {
