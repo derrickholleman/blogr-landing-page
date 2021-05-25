@@ -206,3 +206,12 @@
         margin-left: -5rem;
     }
 }
+
+
+/* DISABLE SCROLL FADE IN ON DESKTOP */
+    @media screen and (min-width: 753px) {
+        [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+        }
+    }
