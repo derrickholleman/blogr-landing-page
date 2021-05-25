@@ -1,7 +1,4 @@
 @media screen and (max-width: 753px) {
-    [data-aos="new-animation"] {
-        
-    }
     .nav-ul, .header-right {
         display: none;
     }

@@ -185,14 +185,14 @@
 <!--SECTION CONTAINERS-->
 <!---------------------->
   <section class="section1-container">
-    <h1 class="designed" data-aos="test-animation">
+    <h1 class="designed">
       Designed for the Future
     </h1>
     <div class="section1-content">
       <picture class="section1-image">
         <img src="images/illustration-editor-desktop.svg" width="925" height="882" alt="illustration editor">
       </picture>
-      <div class="section1-paragraphs">
+      <div class="section1-paragraphs" data-aos="fade-up">
         <div class="description1">
           <h2 class="description-title">
             Introducing an extensible editor
@@ -217,12 +217,12 @@
 <!-------------------->
   <section class="section2">
     <section class="section2-container">
-      <img src="images/illustration-phones.svg" width="552" height="579" class="section2-image" alt="phones">
+      <img src="images/illustration-phones.svg" width="552" height="579" class="section2-image" alt="phones" data-aos="fade-right">
       <div class="section2-text">
-        <h2 class="section2-title">
+        <h2 class="section2-title" data-aos="fade-up">
           State of the Art Infrastructure
         </h2>
-        <p class="section2-paragraph">
+        <p class="section2-paragraph" data-aos="fade-up">
           With reliability and speed in mind, worldwide data centers provide the backbone for ultrafast connectivity.  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
         </p>
       </div>
@@ -233,10 +233,10 @@
 <!----------------->
   <section class="section3-container">
     <div class="section3-content">
-      <picture class="section3-image">
+      <picture class="section3-image" data-aos="fade-right">
         <img src="images/illustration-laptop-desktop.svg" width="925" height="882" alt="laptop">
       </picture>
-      <div class="section3-paragraphs">
+      <div class="section3-paragraphs" data-aos="fade-up">
         <div class="description1">
           <h2 class="description-title">
             Free, open, simple
@@ -261,10 +261,10 @@
 <!-------------------->
   <footer>
     <div class="footer-container">
-      <div class="logo">
+      <div class="logo" data-aos='flip-up'>
         <a href="#top"><img src="images/logo.svg" class="logo"></a>
       </div>
-      <div class="footer-column-product footer-column">
+      <div class="footer-column-product footer-column" data-aos="fade-right" data-aos-delay='100'>
         <p class="footer-title">
           Product
         </p>
@@ -276,7 +276,7 @@
           <li><a href="#">Integrations</a></li>
         </ul>
       </div>
-      <div class="footer-column-company footer-column">
+      <div class="footer-column-company footer-column" data-aos="fade-left" data-aos-delay='200'>
         <p class="footer-title">
           Company
         </p>
@@ -287,7 +287,7 @@
           <li><a href="#">Careers</a></li>
         </ul>
       </div>
-      <div class="footer-column-connect footer-column">
+      <div class="footer-column-connect footer-column" data-aos="fade-right" data-aos-delay='300'>
         <p class="footer-title">
           Connect
         </p>
@@ -316,7 +316,7 @@
   easing: 'ease-in-out-sine', // default easing for AOS animations
   once: true, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+  anchorPlacement: 'top', // defines which position of the element regarding to window should trigger the animation
   });
   </script>
 </body>
