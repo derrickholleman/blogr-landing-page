@@ -1,5 +1,4 @@
 # blogr-landing-page
-made a landing page based on a template from Frontend Mentor.
 
 modern looking landing page with responsive design and a slick mobile hamburger menu.  
 
